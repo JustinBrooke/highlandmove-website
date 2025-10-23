@@ -29,9 +29,9 @@ export default function CostCalculator() {
     let baseRate = 0;
     let hours = 0;
 
-    // Base hours by home size
+    // Base hours by home size (minimum 3 hours)
     const sizeHours: Record<string, number> = {
-      studio: 2,
+      studio: 3,
       "1br": 3,
       "2br": 4,
       "3br": 5,
@@ -39,10 +39,10 @@ export default function CostCalculator() {
       "5br": 9,
     };
 
-    hours = sizeHours[homeSize] || 4;
+    hours = Math.max(3, sizeHours[homeSize] || 4);
 
     // Hourly rate for local moves
-    const hourlyRate = 120;
+    const hourlyRate = 149;
 
     if (moveType === "local") {
       baseRate = hours * hourlyRate;
@@ -272,9 +272,9 @@ export default function CostCalculator() {
                     How We Price
                   </h3>
                   <ul className="space-y-2 text-gray-600">
-                    <li>• Hourly billing for local moves</li>
+                    <li>• $149/hour (3-hour minimum)</li>
+                    <li>• Saturdays: $199/hour (3-hour minimum)</li>
                     <li>• Transparent pricing, no hidden fees</li>
-                    <li>• You only pay for time needed</li>
                     <li>• Free estimates available</li>
                     <li>• Licensed and insured</li>
                   </ul>

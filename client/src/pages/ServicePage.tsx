@@ -22,9 +22,9 @@ const serviceContent: Record<string, any> = {
       { title: "Schedule Move", description: "Choose a date and time that works for you" },
       { title: "Relax", description: "Our professional team handles everything" },
     ],
-    pricing: "Local moves are billed hourly starting at $120/hour for a 2-person crew and truck. Final cost depends on the size of your home and amount of items.",
+    pricing: "Local moves are billed hourly at $149/hour with a 3-hour minimum (Saturdays $199/hour). Rate includes 2-person crew and truck. Final cost depends on the size of your home and amount of items.",
     faqs: [
-      { q: "How much does a local move cost?", a: "Local moves are billed hourly. A typical 2-bedroom apartment takes 4-5 hours at $120/hour." },
+      { q: "How much does a local move cost?", a: "Local moves are $149/hour with a 3-hour minimum ($447 minimum). Saturdays are $199/hour. A typical 2-bedroom apartment takes 4-5 hours." },
       { q: "Do you provide packing materials?", a: "Yes, we provide all necessary packing materials and equipment." },
       { q: "What areas do you serve?", a: "We serve Jonesborough, Bristol, Johnson City, and surrounding Tri-Cities areas." },
       { q: "Are you licensed and insured?", a: "Yes, we are fully licensed and insured for your protection." },
@@ -137,12 +137,12 @@ const serviceContent: Record<string, any> = {
       { title: "We Load", description: "Our team loads everything into our truck" },
       { title: "We Dispose", description: "We properly dispose or recycle your items" },
     ],
-    pricing: "Junk hauling is priced based on volume. Contact us for a free estimate based on your items.",
+    pricing: "Junk hauling is $149/hour with a 3-hour minimum (Saturdays $199/hour). Final price depends on volume and disposal fees.",
     faqs: [
       { q: "What items can you haul away?", a: "We can haul furniture, appliances, yard waste, and most household items." },
       { q: "Do you recycle?", a: "Yes, we recycle and donate items when possible." },
       { q: "Can you do same-day service?", a: "Yes, same-day service is often available. Call us to check availability." },
-      { q: "How is junk hauling priced?", a: "Pricing is based on the volume of items. We'll provide a quote before starting." },
+      { q: "How is junk hauling priced?", a: "Junk hauling is $149/hour with a 3-hour minimum ($447 minimum). Saturdays are $199/hour. We'll provide a quote before starting." },
     ],
   },
   "furniture-delivery-bristol-tn": {

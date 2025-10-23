@@ -8,7 +8,7 @@ import NotFound from "./NotFound";
 // Service-specific content
 const serviceContent: Record<string, any> = {
   "local-moving-jonesborough-bristol-tn": {
-    h1: "Local Moving Services in Jonesborough & Bristol, TN",
+    h1: "Local Moving Services Between Jonesborough & Bristol, TN",
     description: "Professional local moving services you can trust. Highland Moving provides reliable, affordable local moves throughout the Tri-Cities area.",
     benefits: [
       "Experienced local movers who know the area",
@@ -31,7 +31,7 @@ const serviceContent: Record<string, any> = {
     ],
   },
   "long-distance-moving-tennessee": {
-    h1: "Long Distance Moving Services from Tennessee",
+    h1: "Long Distance Moving Services Between Jonesborough & Bristol, TN",
     description: "Planning a move out of state? Highland Moving provides reliable long-distance moving services with transparent pricing and professional care.",
     benefits: [
       "Experienced with interstate moves",
@@ -54,7 +54,7 @@ const serviceContent: Record<string, any> = {
     ],
   },
   "packing-services-jonesborough-tn": {
-    h1: "Professional Packing Services in Jonesborough, TN",
+    h1: "Professional Packing Services Between Jonesborough & Bristol, TN",
     description: "Don't have time to pack? Let our professional team handle it. We'll carefully pack your entire home or just the items you need help with.",
     benefits: [
       "Professional packing materials included",
@@ -77,7 +77,7 @@ const serviceContent: Record<string, any> = {
     ],
   },
   "piano-moving-bristol-tn": {
-    h1: "Professional Piano Moving in Bristol, TN",
+    h1: "Professional Piano Moving Between Jonesborough & Bristol, TN",
     description: "Pianos require special care and equipment. Our experienced team uses piano boards and proper techniques to safely move your valuable instrument.",
     benefits: [
       "Specialized piano moving equipment (piano boards)",
@@ -100,7 +100,7 @@ const serviceContent: Record<string, any> = {
     ],
   },
   "gun-safe-moving-tennessee": {
-    h1: "Gun Safe Moving Services in Tennessee",
+    h1: "Gun Safe Moving Services Between Jonesborough & Bristol, TN",
     description: "Gun safes are extremely heavy and require professional equipment and expertise. We safely move gun safes of all sizes.",
     benefits: [
       "Specialized equipment for heavy safes",
@@ -123,7 +123,7 @@ const serviceContent: Record<string, any> = {
     ],
   },
   "junk-hauling-jonesborough-tn": {
-    h1: "Local Junk Hauling in Jonesborough, TN",
+    h1: "Local Junk Hauling Between Jonesborough & Bristol, TN",
     description: "Need to get rid of unwanted items? We provide local junk hauling and removal services to help you declutter before or after your move.",
     benefits: [
       "Remove unwanted furniture and items",
@@ -146,7 +146,7 @@ const serviceContent: Record<string, any> = {
     ],
   },
   "furniture-delivery-bristol-tn": {
-    h1: "Furniture Delivery & Assembly in Bristol, TN",
+    h1: "Furniture Delivery & Assembly Between Jonesborough & Bristol, TN",
     description: "Bought new furniture? We'll deliver and assemble it for you. Professional furniture delivery and assembly services.",
     benefits: [
       "Professional furniture assembly",
@@ -169,7 +169,7 @@ const serviceContent: Record<string, any> = {
     ],
   },
   "appliance-delivery-jonesborough-tn": {
-    h1: "Large Appliance Delivery & Assembly",
+    h1: "Large Appliance Delivery & Assembly Between Jonesborough & Bristol, TN",
     description: "Professional delivery and installation of large appliances. We handle refrigerators, washers, dryers, and more.",
     benefits: [
       "Experienced with all major appliances",
@@ -192,7 +192,7 @@ const serviceContent: Record<string, any> = {
     ],
   },
   "tv-mounting-bristol-tn": {
-    h1: "Professional TV Mounting in Bristol, TN",
+    h1: "Professional TV Mounting Between Jonesborough & Bristol, TN",
     description: "Professional TV mounting and installation services. We'll mount your TV safely and hide the cables for a clean look.",
     benefits: [
       "Professional mounting on any wall type",

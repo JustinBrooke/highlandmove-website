@@ -40,7 +40,7 @@ export default function Home() {
             {/* Left Column - Content */}
             <div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
-                Trusted Local & Long Distance Movers in{" "}
+                Trusted Local Movers Operating Between{" "}
                 <span className="text-primary">Jonesborough & Bristol, TN</span>
               </h1>
               <p className="text-xl text-gray-600 mb-8">

@@ -68,7 +68,7 @@ const serviceContent: Record<string, any> = {
       { title: "We Pack", description: "Our team carefully packs everything" },
       { title: "We Move", description: "Then we move everything to your new home" },
     ],
-    pricing: "Packing services are $40/hour per packer in addition to moving costs. Materials are included.",
+    pricing: "Packing services are included in our standard moving rate of $149/hour (3-hour minimum, Saturdays $199/hour). All packing materials included.",
     faqs: [
       { q: "Do you provide packing materials?", a: "Yes, all packing materials (boxes, tape, bubble wrap, etc.) are included." },
       { q: "Can you pack just fragile items?", a: "Yes, we offer partial packing for just the items you need help with." },
@@ -91,7 +91,7 @@ const serviceContent: Record<string, any> = {
       { title: "Preparation", description: "We properly protect and secure your piano" },
       { title: "Safe Transport", description: "We carefully move your piano to its new location" },
     ],
-    pricing: "Piano moving starts at $200 in addition to standard moving costs. Price varies based on piano type and stairs.",
+    pricing: "Piano moving starts at $200 in addition to standard moving costs ($149/hour, 3-hour minimum). Saturdays $199/hour. Price varies based on piano type and stairs.",
     faqs: [
       { q: "Do you have special equipment for pianos?", a: "Yes, we use professional piano boards and specialized equipment." },
       { q: "Can you move upright and grand pianos?", a: "Yes, we're experienced with all types of pianos." },
@@ -114,7 +114,7 @@ const serviceContent: Record<string, any> = {
       { title: "Prepare", description: "We protect floors and use proper equipment" },
       { title: "Move Safely", description: "We carefully transport your safe" },
     ],
-    pricing: "Gun safe moving starts at $150 in addition to standard moving costs. Price varies based on weight and stairs.",
+    pricing: "Gun safe moving starts at $150 in addition to standard moving costs ($149/hour, 3-hour minimum). Saturdays $199/hour. Price varies based on weight and stairs.",
     faqs: [
       { q: "How heavy of a safe can you move?", a: "We can move safes up to 1000+ pounds with proper equipment." },
       { q: "Do you move safes up stairs?", a: "Yes, though it may require additional equipment and affect pricing." },
@@ -160,7 +160,7 @@ const serviceContent: Record<string, any> = {
       { title: "Deliver", description: "We carefully deliver your furniture" },
       { title: "Assemble", description: "We professionally assemble and place it" },
     ],
-    pricing: "Furniture delivery and assembly pricing varies by item. Contact us for a quote.",
+    pricing: "Furniture delivery and assembly is $149/hour with a 3-hour minimum (Saturdays $199/hour). Final price varies by item complexity. Contact us for a quote.",
     faqs: [
       { q: "Do you assemble all types of furniture?", a: "Yes, we're experienced with all major furniture brands and types." },
       { q: "Will you remove packaging?", a: "Yes, we'll remove and dispose of all packaging materials." },
@@ -183,7 +183,7 @@ const serviceContent: Record<string, any> = {
       { title: "Deliver", description: "We carefully deliver your appliance" },
       { title: "Install", description: "We professionally install and test it" },
     ],
-    pricing: "Appliance delivery and installation pricing varies. Contact us for a quote.",
+    pricing: "Appliance delivery and installation is $149/hour with a 3-hour minimum (Saturdays $199/hour). Contact us for a detailed quote.",
     faqs: [
       { q: "Do you install appliances?", a: "Yes, we can install and connect most appliances." },
       { q: "Can you remove my old appliance?", a: "Yes, we offer old appliance removal and disposal." },
@@ -206,7 +206,7 @@ const serviceContent: Record<string, any> = {
       { title: "Mount", description: "We professionally mount your TV" },
       { title: "Finish", description: "We hide cables and test everything" },
     ],
-    pricing: "TV mounting starts at $150 depending on TV size and wall type.",
+    pricing: "TV mounting starts at $150 (includes labor and basic hardware). Additional charges may apply for complex installations or in-wall cable concealment.",
     faqs: [
       { q: "What size TVs can you mount?", a: "We can mount TVs of all sizes, from small to 85+ inches." },
       { q: "Do you hide the cables?", a: "Yes, we provide cable management for a clean look." },

@@ -4,16 +4,31 @@ import NotFound from "@/pages/NotFound";
 import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import CostCalculator from "./pages/CostCalculator";
+import MovingGuide from "./pages/MovingGuide";
+import ServicePage from "./pages/ServicePage";
 
 function Router() {
   return (
-    <Switch>
-      <Route path={"/"} component={Home} />
-      <Route path={"/404"} component={NotFound} />
-      {/* Final fallback route */}
-      <Route component={NotFound} />
-    </Switch>
+    <>
+      <Header />
+      <Switch>
+        <Route path={"/"} component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/cost-calculator" component={CostCalculator} />
+        <Route path="/moving-guide" component={MovingGuide} />
+        <Route path="/:slug" component={ServicePage} />
+        <Route path={"/404"} component={NotFound} />
+        <Route component={NotFound} />
+      </Switch>
+      <Footer />
+    </>
   );
 }
 

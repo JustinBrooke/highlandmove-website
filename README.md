@@ -12,10 +12,9 @@ There are two options for taking over ownership and management of this website.
 
 Use this option if you want to edit and host the website using Replit. No coding or terminal experience is needed — you can make changes to the site by chatting with Replit Agent.
 
-1. **Create a Replit account** (if you don't already have one) at [replit.com](https://replit.com).
-2. **Create a new App:**
-   - From your Replit dashboard, click **"Create App"**.
-   - Select **"Import from GitHub"**.
+1. **Login to your Replit account** 
+2. **Click "Import Code or Design:** (top left hand corner)
+   - When the new screen opens, click **"GitHub"**.
    - Paste this repository's URL: `https://github.com/justinbrooke/highlandmove-website`
    - Click **"Import from GitHub"**.
 3. **Wait for the import to complete.** Replit will pull in all the files from this repository and set up the project for you.
